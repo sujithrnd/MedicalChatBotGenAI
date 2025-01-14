@@ -91,4 +91,7 @@ open up localhost:
   -PINECONE_API_KEY
   -OPENAI_API_KEY
 
+## .Change code and push >Github>Action>Sunners will trigger CI/CD
+  ## . EC2 >Networking>Inboundrule>Add 'CustomTCP 8080 0.0.0.0 > open public ip
+
 
