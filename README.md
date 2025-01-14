@@ -71,16 +71,21 @@ open up localhost:
   
   sudo usermod -aG docker ubuntu
   
+  -- doker version
+  
   newgrp doker
+  
   # 6. Configure EC2 as self -hosted runner 
-  setting>actions>runner>new self hosted runner>hoose os>then run command  one by one
+  setting>actions>runner>new self hosted runner>choose os>then run command  one by one -->OS -Linux ->follow the commnads shown in Github
 
   #7. Set up github secret
 
   -AWS_ACCESS_KEY_ID
   -AWS_SECRET_ACCESS_KEY
   -AWS_DEFAULT_REQION
-  -
+  -ECR_REPO
+  -PINECONE_API_KEY
+  -OPENAI_API_KEY
 
 
   
