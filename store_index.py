@@ -1,3 +1,4 @@
+
 from src.helper import load_pdf_file,text_split,download_hugging_face_embeddings
 from pinecone.grpc import PineconeGRPC as Pinecone
 from pinecone import ServerlessSpec
@@ -37,3 +38,4 @@ docsearch = PineconeVectorStore.from_documents(
     index_name=index_name,
     embedding=embedding,
 )
+
