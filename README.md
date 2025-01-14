@@ -58,13 +58,29 @@ open up localhost:
 - GPT
 - Pinecone
 ## 5.Open EC2 and Install Docker in EC2 Mahine:
+
   sudo apt-get upgrade -y
+  
   sudo apt-get upgrade
-#required
+  
+ #required
+
   curl -fsSL https://get.docker.com -o get-docket.sh
+  
   sudo sh get-docker.sh
+  
   sudo usermod -aG docker ubuntu
+  
   newgrp doker
+  # 6. Configure EC2 as self -hosted runner 
+  setting>actions>runner>new self hosted runner>hoose os>then run command  one by one
+
+  #7. Set up github secret
+
+  -AWS_ACCESS_KEY_ID
+  -AWS_SECRET_ACCESS_KEY
+  -AWS_DEFAULT_REQION
+  -
 
 
   
