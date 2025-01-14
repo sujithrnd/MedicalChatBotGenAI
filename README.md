@@ -58,6 +58,8 @@ open up localhost:
 - Flask
 - GPT
 - Pinecone
+
+
 ## 3. Create ECR repo  to store/save docker image
 -Save uri: 913524949784.dkr.ecr.eu-north-1.amazonaws.com/medicalchatbot
 ## 5.Open EC2 and Install Docker in EC2 Mahine:
