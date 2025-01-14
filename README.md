@@ -57,3 +57,14 @@ open up localhost:
 - Flask
 - GPT
 - Pinecone
+## 5.Open EC2 and Install Docker in EC2 Mahine:
+  sudo apt-get upgrade -y
+  sudo apt-get upgrade
+#required
+  curl -fsSL https://get.docker.com -o get-docket.sh
+  sudo sh get-docker.sh
+  sudo usermod -aG docker ubuntu
+  newgrp doker
+
+
+  
