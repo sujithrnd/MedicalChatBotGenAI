@@ -1,4 +1,7 @@
-sentence-transformers==2.2.2
+#sentence-transformers==2.2.2
+langchain-huggingface==0.1.2
+sentence-transformers>=2.6.0
+langchain-openai
 langchain
 flask
 pypdf
