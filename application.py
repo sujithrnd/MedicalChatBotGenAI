@@ -12,6 +12,7 @@ from src.prompt import *
 import os
 
 application = Flask(__name__)
+
 app=application
 
 load_dotenv()
