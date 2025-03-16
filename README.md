@@ -72,7 +72,7 @@ open up localhost:
 
   curl -fsSL https://get.docker.com -o get-docket.sh
   
-  sudo sh get-doker.sh
+  sudo sh get-docket.sh
   
   sudo usermod -aG docker ubuntu
   newgrp docker
