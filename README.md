@@ -61,7 +61,7 @@ open up localhost:
 
 
 ## 3. Create ECR repo  to store/save docker image
--Save uri: 913524949784.dkr.ecr.eu-north-1.amazonaws.com/medicalchatbot
+-Save uri: 913524949784.dkr.ecr.ap-south-1.amazonaws.com/medicalbot_ecr
 ## 5.Open EC2 and Install Docker in EC2 Mahine:
 
   sudo apt-get upgrade -y
@@ -72,13 +72,13 @@ open up localhost:
 
   curl -fsSL https://get.docker.com -o get-docket.sh
   
-  sudo sh get-docker.sh
+  sudo sh get-doker.sh
   
   sudo usermod -aG docker ubuntu
+  newgrp docker
+  docker --version
   
-  -- doker version
   
-  newgrp doker
   
   # 6. Configure EC2 as self -hosted runner 
   setting>actions>runner>new self hosted runner>choose os>then run command  one by one -->OS -Linux ->follow the commnads shown in Github
