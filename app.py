@@ -25,9 +25,9 @@ embeddings = download_hugging_face_embeddings()
 
 
 index_name = "medical-bot"
-
+"""
 # Embed each chunk and upsert the embeddings into your Pinecone index.
-"""docsearch = PineconeVectorStore.from_existing_index(
+docsearch = PineconeVectorStore.from_existing_index(
     index_name=index_name,
     embedding=embeddings
 )
@@ -47,6 +47,7 @@ question_answer_chain = create_stuff_documents_chain(llm, prompt)
 rag_chain = create_retrieval_chain(retriever, question_answer_chain)
 
 """
+
 @app.route("/")
 def index():
     return render_template('chat.html')

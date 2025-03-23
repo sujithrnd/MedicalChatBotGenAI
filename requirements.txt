@@ -6,11 +6,10 @@ langchain
 flask
 pypdf
 python-dotenv
-#pinecone[grpc]
-#pinecone            
-#pinecone-client
-#langchain-pinecone
-langchain_pinecone
+pinecone[grpc]
+pinecone            
+pinecone-client
+langchain-pinecone
 pinecone
 langchain_community
 langchain_openai
